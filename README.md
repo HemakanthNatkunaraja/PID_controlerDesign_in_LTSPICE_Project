@@ -53,10 +53,10 @@ The repository includes the following files:
 ### Running Simulations in LTspice
 1. Open LTspice on your computer.
 2. Open the desired `.asc` file:
-   - `p_controller.asc` for P controller simulation.
-   - `pi_controller.asc` for PI controller simulation.
-   - `pd_controller.asc` for PD controller simulation.
-   - `pid_controller.asc` for PID controller simulation.
+   - `P_controller.asc` for P controller simulation.
+   - `PI_controller.asc` for PI controller simulation.
+   - `PD_controller.asc` for PD controller simulation.
+   - `PID_controller.asc` for PID controller simulation.
 3. **Run the Simulation**:
    - In LTspice, click the **Run** button (or press F9) to start the simulation.
    - Observe and analyze the output waveforms, focusing on rise time, overshoot, and settling time for each controller.
@@ -65,10 +65,9 @@ The repository includes the following files:
 The following results were obtained for each controller type:
 - **P Controller**: High peak overshoot, simple implementation, limited error correction.
 - **PI Controller**: Eliminates steady-state error but can increase settling time.
-- **PD Controller**: Reduces overshoot and settling time but sensitive to noise.
+- **PD Controller**: Reduces overshoot and settling time but is sensitive to noise.
 - **PID Controller**: Combines all effects for optimal control, balancing stability, response time, and error correction.
 
 Each controller type’s influence on the system’s behavior is discussed in detail in the [project report](./EC5030_DesignProject_2020e050.pdf).
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+
