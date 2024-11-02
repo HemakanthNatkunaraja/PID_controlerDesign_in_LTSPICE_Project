@@ -46,7 +46,7 @@ The repository includes the following files:
 2. **Clone the Repository**:
    - Clone this repository to your local machine:
      ```bash
-     git clone https://github.com/yourusername/Control_Systems_Project.git
+      https://github.com/HemakanthNatkunaraja/PID_controlerDesign_in_LTSPICE_Project
      ```
 
 ## Usage
